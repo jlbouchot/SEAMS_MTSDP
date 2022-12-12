@@ -65,8 +65,8 @@ You may now start your own jupyter server locally
 
 You are given two notebooks to work out. They should be self contained, in the sense that most of the exercises are clearly detailed in the codeless cells.
 
-[notebooks/Thresholding](Soft/Hard Thresholding in Signal and Image approximation)
+[notebooks/Thresholding.ipynb](Soft/Hard Thresholding in Signal and Image approximation)
 
 [notebooks/phaseTransitions.ipynb](Empirically quantifying the quality of algorithms / matrices)
 
-[slides/]
+[slides/SEAMS2022_SparseApproximation.pptx](Slides for the lectures)
