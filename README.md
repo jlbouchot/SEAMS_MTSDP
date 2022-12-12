@@ -23,7 +23,7 @@ Topics include
 
 Before getting started, make sure you have all the packages and resources available: 
 
-'''git clone https://github.com/jlbouchot/SEAMS_MTSDP/'''
+    git clone https://github.com/jlbouchot/SEAMS_MTSDP/
 
 Unix (Linux/Mac) users should be fine going forward. 
 Windows users should have access to an anaconda distribution. If not, either download anaconda or download any python distribution of your choice. 
@@ -33,40 +33,40 @@ Windows users should have access to an anaconda distribution. If not, either dow
 Whilst not mandatory, virtual environments allow to not pollute various working projects. 
 Some compatibility issues may arise by not containerising your packages. 
 
-'''pip install virtualenv'''
+    pip install virtualenv
 
 We start with creating a venv. The rest assumes you are already **in** your working folder. 
 
 
-virtualenv CompSensVEnv 
+    virtualenv CompSensVEnv 
 
 This creates a local repository names CompSensVEnv which will contain all the important links for the working environment which will be used in this hands on sessions. 
 The environment is created through 
 
-'''source CompSensVEnv/bin/activate''' in a Unix machine
+    source CompSensVEnv/bin/activate in a Unix machine
 
 or 
 
-'''CompSensVEnv\Scripts\activate''' in a windows machine
+    CompSensVEnv\Scripts\activate in a windows machine
 
 From now on, everything you install will be locally to your environment and will not impact your main python distribution nor any other virtual environment you may have for other projects. 
-This repository contains a file names '''requirements.txt''' which can be used to tell python what packages you are about to use. 
+This repository contains a file names `requirements.txt` which can be used to tell python what packages you are about to use. 
 Let's make sure we have everything. 
 
-'''pip install -r requirements.txt'''
+    pip install -r requirements.txt
 
 You now see all the packages being downloaded, if they've never been downloaded before, or being linked if they already existed. 
 
 You may now start your own jupyter server locally 
 
-'''jupyter notebook''' 
+    jupyter notebook
 
 ### Available notebooks
 
-You are given XXX notebooks to work out. They should be self contained, in the sense that most of the exercises are clearly detailed in the codeless cells.
+You are given two notebooks to work out. They should be self contained, in the sense that most of the exercises are clearly detailed in the codeless cells.
 
-[notebooks/IterThresholding](Soft/Hard Iterative Thresholding)
+[notebooks/Thresholding](Soft/Hard Thresholding in Signal and Image approximation)
 
-[notebooks/HTP.ipynb](Hard Thresholding Pursuit)
+[notebooks/phaseTransitions.ipynb](Empirically quantifying the quality of algorithms / matrices)
 
 [slides/]
